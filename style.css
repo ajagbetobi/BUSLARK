@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* 
+General */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  background-image: #fff;
+  color: #ec991c;
+  overflow-x: hidden;
+}
+
+.centered {
+  width: 85%;
+  margin: auto;
+}
+
+.centered-half {
+  width: 50%;
+  margin: auto;
+}
+h2 {
+  font-weight: 700;
+}
+h3 {
+  font-weight: 600;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #ec991c;
+}
+
+/* 
+Nav */
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #ec991c;
+  box-shadow: 0 0;
+}
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active {
+  color: #ec991c;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item.active .nav-link,
+.navbar-light
+  .nav-item:active
+  .nav-link
+  .navbar-light
+  .nav-item:focus
+  .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: #ec991c;
+}
+
+/* 
+main */
+main {
+  margin-top: 20vh;
+}
+
+/* 
+header */
+header {
+  min-height: 300px;
+  max-width: 60%;
+  margin: auto;
+}
+
+.round {
+  border-radius: 50%;
+
+  width: 28vw;
+  height: 24vh;
+  margin: auto;
+}
+.special-h2 {
+  margin-top: 2.8rem;
+}
+/* 
+Bed */
+.bed,
+.others {
+  margin-bottom: 10vh;
+}
+/* 
+Carusel */
+
+#carousel {
+  margin: auto;
+}
+.car-img {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  color: #f79707;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f79707' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f79707' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* 
+contact */
+
+.contact {
+}
+.options {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.option {
+  margin-right: 20px;
+}
+
+/* 
+footer */
+footer {
+  background-color: #fff;
+  height: 10vh;
+  border-top: 2px solid #ec991c;
+  margin-top: 10vh;
+  width: 100%;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+.quick-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 3.5vh;
+}
+
+.quick-links li {
+  margin-right: 20px;
+}
+.quick-links li a {
+  text-decoration: none;
+  color: #ec991c;
+}
+
+.footer p {
+  padding-top: 3.5vh;
+}
+
+@media (max-width: 992px) {
+  header {
+    padding-bottom: 7vh;
+  }
+
+  main {
+    margin-left: 8vw;
+  }
+  .options {
+    flex-direction: column;
+    margin-left: 10vw;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer p {
+    padding-top: 0;
+  }
+}
