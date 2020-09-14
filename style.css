@@ -187,4 +187,7 @@ footer {
   .footer p {
     padding-top: 0;
   }
+  .round {
+    display: none;
+  }
 }
